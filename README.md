@@ -53,7 +53,7 @@ file: {1, 2, 10 ,8 ,9, 10, 11, 1, 2, 3, 4, 1, 2, 3, 4, 4, 3, 2, 1} <br />
 response: <br />
 {<br />
 "incSequence": [ <br />
-&nbsp;&nbsp;[ <br />
+[ <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8, <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9, <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10, <br />
@@ -81,13 +81,14 @@ http://localhost:8080/api/sequence/decreasing <br />
 file: {1, 2, 10 ,8 ,9, 10, 11, 1, 2, 3, 4, 1, 2, 3, 4, 4, 3, 2, 1}<br />
 <br />
 response:<br />
-{"decSequence":[ <br />
+{"decSequence": [ <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4, <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3, <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2, <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;] <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
+] <br />
 &nbsp;]<br />
 } <br />
 <br />

@@ -9,6 +9,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -67,9 +68,9 @@ public class FileServiceImpl implements FileService {
             while ((line = br.readLine()) != null) {
                 elementsList.add(Integer.parseInt(line));
             }
-            elementsList = elementsList.stream().sorted().collect(Collectors.toList());
+            Collections.sort(elementsList);
             var result = elementsList.size() % 2 == 1
-                    ? elementsList.get(elementsList.size() % 2)
+                    ? elementsList.get(elementsList.size() / 2)
                     : (elementsList.get(elementsList.size() / 2 - 1) + elementsList.get(elementsList.size() / 2)) / 2;
             return ResultDto.builder().median(result).build();
         } catch (IOException ex) {

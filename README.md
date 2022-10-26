@@ -8,7 +8,9 @@ file: {1, 2, 10 ,8 ,9, 10, 11, 1, 2, 3, 4, 1, 2, 3, 4, 4, 3, 2, 1}
 <br />
 <br />
 response:<br />
-{"min":1}  <br />
+{<br />
+&nbsp;&nbsp;&nbsp;"min" : 1 <br />
+}  <br />
 <br />
 <br />
 request:<br />
@@ -17,7 +19,9 @@ http://localhost:8080/api/max <br />
 file: {1, 2, 10 ,8 ,9, 10, 11, 1, 2, 3, 4, 1, 2, 3, 4, 4, 3, 2, 1}<br />
 <br />
 response:<br />
-{"max":11} <br />
+{ <br />
+&nbsp;&nbsp;&nbsp;"max" : 11 <br />
+} <br />
 <br />
 <br />
 request:<br />
@@ -26,7 +30,9 @@ http://localhost:8080/api/average <br />
 file: {1, 2, 10 ,8 ,9, 10, 11, 1, 2, 3, 4, 1, 2, 3, 4, 4, 3, 2, 1}<br />
 <br />
 response:<br />
-{"average":4.2631578947368425} <br />
+{ <br />
+&nbsp;&nbsp;&nbsp; "average" : 4.2631578947368425 <br />
+} <br />
 <br />
 request:<br />
 put  <br />
@@ -34,7 +40,9 @@ http://localhost:8080/api/median <br />
 file: {1, 2, 10 ,8 ,9, 10, 11, 1, 2, 3, 4, 1, 2, 3, 4, 4, 3, 2, 1}<br />
 <br />
 response: <br />
-{"median":3} <br />
+{ <br />
+&nbsp;&nbsp;&nbsp;"median" : 3 <br />
+} <br />
 <br />
 <br />
 request: <br />
@@ -43,7 +51,28 @@ http://localhost:8080/api/sequence/increasing <br />
 file: {1, 2, 10 ,8 ,9, 10, 11, 1, 2, 3, 4, 1, 2, 3, 4, 4, 3, 2, 1} <br />
 <br />
 response: <br />
-{"incSequence":[[8,9,10,11],[1,2,3,4],[1,2,3,4]]}  <br />
+{<br />
+"incSequence": [ <br />
+&nbsp;&nbsp;[ <br />
+&nbsp;&nbsp;&nbsp;8, <br />
+&nbsp;&nbsp;&nbsp;9, <br />
+&nbsp;&nbsp;&nbsp;10, <br />
+&nbsp;&nbsp;&nbsp;11 <br />
+&nbsp;&nbsp;], <br />
+&nbsp;&nbsp;[ <br />
+&nbsp;&nbsp;&nbsp;1, <br />
+&nbsp;&nbsp;&nbsp;2, <br />
+&nbsp;&nbsp;&nbsp;3, <br />
+&nbsp;&nbsp;&nbsp;4 <br />
+&nbsp;&nbsp;], <br />
+&nbsp;&nbsp;[ <br />
+&nbsp;&nbsp;&nbsp;1, <br />
+&nbsp;&nbsp;&nbsp;2, <br />
+&nbsp;&nbsp;&nbsp;3, <br />
+&nbsp;&nbsp;&nbsp;4 <br />
+&nbsp;&nbsp;] <br />
+&nbsp;&nbsp;] <br />
+} <br />
 <br />
 <br />
 request: <br />
@@ -52,7 +81,15 @@ http://localhost:8080/api/sequence/decreasing <br />
 file: {1, 2, 10 ,8 ,9, 10, 11, 1, 2, 3, 4, 1, 2, 3, 4, 4, 3, 2, 1}<br />
 <br />
 response:<br />
-{"decSequence":[[4,3,2,1]]} <br />
+{"decSequence":[ <br />
+&nbsp;&nbsp;[ <br />
+&nbsp;&nbsp;&nbsp;4, <br />
+&nbsp;&nbsp;&nbsp;3, <br />
+&nbsp;&nbsp;&nbsp;2, <br />
+&nbsp;&nbsp;&nbsp;1 <br />
+&nbsp;&nbsp;] <br />
+&nbsp;]<br />
+} <br />
 <br />
 <br />
 <br />
@@ -68,7 +105,7 @@ file:10m.txt <br />
 <br />
 response:<br />
 { <br />
-&nbsp;&nbsp;&nbsp; "min":-49999996 <br />
+&nbsp;&nbsp;&nbsp; "min" : -49999996 <br />
 } <br />
 <br />
 <br />
@@ -79,7 +116,7 @@ file:10m.txt<br />
 <br />
 response:<br />
 { <br />
-&nbsp;&nbsp;&nbsp;"max":49999978 <br />
+&nbsp;&nbsp;&nbsp;"max" : 49999978 <br />
 } <br />
 <br />
 request:<br />
@@ -89,7 +126,7 @@ file:10m.txt<br />
 <br />
 response:<br />
 { <br />
-&nbsp;&nbsp;&nbsp; "average":7364.418442641844 <br />
+&nbsp;&nbsp;&nbsp; "average" : 7364.418442641844 <br />
 } <br />
 <br />
 <br />
@@ -100,7 +137,7 @@ file:10m.txt<br />
 <br />
 response:<br />
 { <br />
-&nbsp;&nbsp;&nbsp;"median":25216 <br />
+&nbsp;&nbsp;&nbsp;"median" : 25216 <br />
 } <br />
 <br />
 <br />

@@ -54,23 +54,23 @@ response: <br />
 {<br />
 "incSequence": [ <br />
 &nbsp;&nbsp;[ <br />
-&nbsp;&nbsp;&nbsp;8, <br />
-&nbsp;&nbsp;&nbsp;9, <br />
-&nbsp;&nbsp;&nbsp;10, <br />
-&nbsp;&nbsp;&nbsp;11 <br />
-&nbsp;&nbsp;], <br />
-&nbsp;&nbsp;[ <br />
-&nbsp;&nbsp;&nbsp;1, <br />
-&nbsp;&nbsp;&nbsp;2, <br />
-&nbsp;&nbsp;&nbsp;3, <br />
-&nbsp;&nbsp;&nbsp;4 <br />
-&nbsp;&nbsp;], <br />
-&nbsp;&nbsp;[ <br />
-&nbsp;&nbsp;&nbsp;1, <br />
-&nbsp;&nbsp;&nbsp;2, <br />
-&nbsp;&nbsp;&nbsp;3, <br />
-&nbsp;&nbsp;&nbsp;4 <br />
-&nbsp;&nbsp;] <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8, <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9, <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10, <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11 <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;], <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1, <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2, <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3, <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;], <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1, <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2, <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3, <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4 <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;] <br />
 &nbsp;&nbsp;] <br />
 } <br />
 <br />
@@ -82,12 +82,12 @@ file: {1, 2, 10 ,8 ,9, 10, 11, 1, 2, 3, 4, 1, 2, 3, 4, 4, 3, 2, 1}<br />
 <br />
 response:<br />
 {"decSequence":[ <br />
-&nbsp;&nbsp;[ <br />
-&nbsp;&nbsp;&nbsp;4, <br />
-&nbsp;&nbsp;&nbsp;3, <br />
-&nbsp;&nbsp;&nbsp;2, <br />
-&nbsp;&nbsp;&nbsp;1 <br />
-&nbsp;&nbsp;] <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4, <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3, <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2, <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;] <br />
 &nbsp;]<br />
 } <br />
 <br />
@@ -149,19 +149,19 @@ file:10m.txt<br />
 response:<br />
 { <br />
 "incSequence": [ { <br />
-[ <br />
-&nbsp;&nbsp;&nbsp;-48190694,    <br />
-&nbsp;&nbsp;&nbsp;-47725447,  <br />
-&nbsp;&nbsp;&nbsp;-43038241,  <br />
-&nbsp;&nbsp;&nbsp;-20190291,  <br />
-&nbsp;&nbsp;&nbsp;-17190728, <br />
-&nbsp;&nbsp;&nbsp;-6172572,  <br />
-&nbsp;&nbsp;&nbsp;8475960,  <br /> 
-&nbsp;&nbsp;&nbsp;25205909,  <br />
-&nbsp;&nbsp;&nbsp;48332507,  <br />
-&nbsp;&nbsp;&nbsp;48676185  <br />
-&nbsp;&nbsp;]  <br />
-]
+&nbsp;&nbsp;&nbsp;&nbsp;[ <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-48190694,    <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-47725447,  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-43038241,  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-20190291,  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-17190728, <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-6172572,  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8475960,  <br /> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25205909,  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;48332507,  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;48676185  <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]  <br />
+] <br />
 }
 <br />
 <br />
